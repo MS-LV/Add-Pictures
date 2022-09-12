@@ -15,7 +15,7 @@ export class AppComponent {
   }
 
   removeFirstPicture(gallery: GalleryComponent) {
-    gallery.pictures.unshift()
+    gallery.pictures.shift()
     console.log('removed first picture', gallery);
   }
 }
